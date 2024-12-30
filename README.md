@@ -24,8 +24,14 @@ We leverage inline TikZ figures in LaTeX environments for visual figures.
 If you have the necessary packages installed, you can create the slides through a hearty
 
 ```
-$ make
+$ make 
 
+```
+
+or on Windows
+
+```
+$ ./build.bat
 ```
 
 If your LaTeX and pandoc environments are not on par, you may have to install the following:
